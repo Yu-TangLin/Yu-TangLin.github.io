@@ -1124,6 +1124,7 @@ const siteBrand = $('#brand');
 var toolBtn = $('#tool'), toolPlayer, backToTop, goToComment, showContents, chooselive2d;
 var siteSearch = $('#search');
 var angleBtn = $('#angle');
+var imgMover = $('#imgs');  // 新增
 var siteNavHeight, headerHightInner, headerHight;
 var oWinHeight = window.innerHeight;
 var oWinWidth = window.innerWidth;
@@ -1305,6 +1306,15 @@ const scrollHandle = function (event) {
   var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
   var SHOW = window.pageYOffset > headerHightInner;
   var startScroll = window.pageYOffset > 0;
+  var oVal = Math.round(Math.min(300 * window.pageYOffset / contentVisibilityHeight, 100)) / -5;
+  var max = 200 + window.pageYOffset;
+  if (oVal > max) {
+	  oVal = max;
+  }
+  imgMover.style.transform = 'translate3d(0,' + oVal + 'vh,0)';
+  imgMover.style.webkitTransform  = 'translate3d(0,' + oVal + 'vh,0)';
+  imgMover.style.msTransform = 'translate3d(0,' + oVal + 'vh,0)';
+  imgMover.style.OTransform  = 'translate3d(0,' + oVal + 'vh,0)';
 
   if (SHOW) {
     changeMetaTheme('#FFF');
@@ -2274,7 +2284,7 @@ const pjaxReload = function () {
 const siteRefresh = function (reload) {
   LOCAL_HASH = 0
   LOCAL_URL = window.location.href
-
+  imgMover = $('#imgs')
   vendorCss('katex');
   vendorJs('copy_tex');
   vendorCss('mermaid');
