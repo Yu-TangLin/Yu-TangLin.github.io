@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"http://example.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":null,"valine":{"appId":null,"appKey":null,"placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"en","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"http://example.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_dark":{"enable":true,"start":21,"end":6},"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":null,"valine":{"appId":null,"appKey":null,"placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"en","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -1121,8 +1121,9 @@ const menuToggle = siteNav.child('.toggle');
 const quickBtn = $('#quick');
 const sideBar = $('#sidebar');
 const siteBrand = $('#brand');
-var toolBtn = $('#tool'), toolPlayer, backToTop, goToComment, showContents;
+var toolBtn = $('#tool'), toolPlayer, backToTop, goToComment, showContents, chooselive2d;
 var siteSearch = $('#search');
+var angleBtn = $('#angle');
 var siteNavHeight, headerHightInner, headerHight;
 var oWinHeight = window.innerHeight;
 var oWinWidth = window.innerWidth;
@@ -1176,6 +1177,16 @@ const changeMetaTheme = function(color) {
     color = '#222'
 
   $('meta[name="theme-color"]').attr('content', color);
+}
+
+const autoDarkmode = function(){
+  if(CONFIG.auto_dark.enable){
+    if(new Date().getHours() >= CONFIG.auto_dark.start || new Date().getHours() <= CONFIG.auto_dark.end){
+      changeTheme('dark');
+    }else{
+      changeTheme();
+    }
+  }
 }
 
 const themeColorListener = function () {
@@ -1613,6 +1624,19 @@ const goToBottomHandle = function () {
 
 const goToCommentHandle = function () {
   pageScroll($('#comments'));
+}
+
+const headertopdown = function () {
+  pageScroll($('#main'));
+}
+
+const chooseLive2dHandle = function () {
+  var live2d = document.getElementById("live2d-widget");
+  if(live2d.style.visibility == "hidden"){
+    live2d.style.visibility = "visible";
+  }else{
+    live2d.style.visibility = "hidden";
+  }
 }
 
 const menuActive = function () {
@@ -2201,22 +2225,31 @@ const domInit = function() {
   quickBtn.child('.down').addEventListener('click', goToBottomHandle);
   quickBtn.child('.up').addEventListener('click', backToTopHandle);
 
-  if(!toolBtn) {
+if(!toolBtn) {
     toolBtn = siteHeader.createChild('div', {
       id: 'tool',
-      innerHTML: '<div class="item player"></div><div class="item contents"><i class="ic i-list-ol"></i></div><div class="item chat"><i class="ic i-comments"></i></div><div class="item back-to-top"><i class="ic i-arrow-up"></i><span>0%</span></div>'
+      innerHTML: '<div class="item player"></div><div class="item contents"><i class="ic i-list-ol"></i></div><div class="item chat"><i class="ic i-comments"></i></div><div class="item live2d"><i class="ic i-thumbtack"></i></div><div class="item back-to-top"><i class="ic i-arrow-up"></i><span>0%</span></div>'
     });
-  }
+ }
+ 
+ if(!angleBtn) {
+    angleBtn = siteHeader.createChild('div', {
+      id: 'angle',
+      innerHTML: '<span><i class="ic i-angle-down" aria-hidden="true"></i></span>'
+    });
+ }
 
   toolPlayer = toolBtn.child('.player');
   backToTop = toolBtn.child('.back-to-top');
   goToComment = toolBtn.child('.chat');
+  chooselive2d = toolBtn.child('.live2d')    // 新增
   showContents = toolBtn.child('.contents');
 
   backToTop.addEventListener('click', backToTopHandle);
   goToComment.addEventListener('click', goToCommentHandle);
+  chooselive2d.addEventListener('click', chooseLive2dHandle);   // 新增
   showContents.addEventListener('click', sideBarToggleHandle);
-
+  angleBtn.addEventListener('click',headertopdown);
   mediaPlayer(toolPlayer)
   $('main').addEventListener('click', function() {
     toolPlayer.player.mini()
@@ -2265,7 +2298,8 @@ const siteRefresh = function (reload) {
   if(!reload) {
     $.each('script[data-pjax]', pjaxScript);
   }
-
+  
+ 
   originTitle = document.title
 
   resizeHandle()
@@ -2309,7 +2343,7 @@ const siteInit = function () {
 
   CONFIG.quicklink.ignores = LOCAL.ignores
   quicklink.listen(CONFIG.quicklink)
-
+  autoDarkmode()   // 新增
   visibilityListener()
   themeColorListener()
 
