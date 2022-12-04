@@ -6,7 +6,7 @@
   <link href="http://yu-tanglin.github.io/atom.xml" rel="self"/>
   
   <link href="http://yu-tanglin.github.io/"/>
-  <updated>2022-12-04T07:05:17.743Z</updated>
+  <updated>2022-12-04T08:42:38.064Z</updated>
   <id>http://yu-tanglin.github.io/</id>
   
   <author>
@@ -18,30 +18,19 @@
   
   <entry>
     <title>公告</title>
-    <link href="http://yu-tanglin.github.io/2022/12/02/Lin-s-Blog/"/>
-    <id>http://yu-tanglin.github.io/2022/12/02/Lin-s-Blog/</id>
+    <link href="http://yu-tanglin.github.io/2022/12/02/%E5%85%AC%E5%91%8A/"/>
+    <id>http://yu-tanglin.github.io/2022/12/02/%E5%85%AC%E5%91%8A/</id>
     <published>2022-12-02T14:41:34.000Z</published>
-    <updated>2022-12-04T07:05:17.743Z</updated>
+    <updated>2022-12-04T08:42:38.064Z</updated>
     
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yu-tanglin.github.io/2022/12/02/hello-world/"/>
-    <id>http://yu-tanglin.github.io/2022/12/02/hello-world/</id>
-    <published>2022-12-02T14:40:28.363Z</published>
-    <updated>2022-12-02T14:40:28.363Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo</span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting</span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub</span>.</p><h2 id="quick-start"><a class="anchor" href="#quick-start">#</a> Quick Start</h2><h3 id="create-a-new-post"><a class="anchor" href="#create-a-new-post">#</a> Create a new post</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo new <span class="token string">"My New Post"</span></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing</span></p><h3 id="run-server"><a class="anchor" href="#run-server">#</a> Run server</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server</span></p><h3 id="generate-static-files"><a class="anchor" href="#generate-static-files">#</a> Generate static files</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating</span></p><h3 id="deploy-to-remote-sites"><a class="anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="公告"><a class="anchor" href="#公告">#</a> 公告</h1><h2 id="qa"><a class="anchor" href="#qa">#</a> Q&amp;A</h2><h3 id="q1之前不是有一个wordpress博客了吗-为什么要开新的"><a class="anchor" href="#q1之前不是有一个wordpress博客了吗-为什么要开新的">#</a> Q1: 之前不是有一个 WordPress 博客了吗？为什么要开新的？</h3><p><strong>A:</strong> 因为一些<strong>众所周知</strong>的原因，之前的博客被下线了，所以要开一个新的，同时写一些新的东西</p><h3 id="q2为什么现在没有评论和搜索功能呢"><a class="anchor" href="#q2为什么现在没有评论和搜索功能呢">#</a> Q2. 为什么现在没有评论和搜索功能呢？</h3><p><strong>A:</strong> 最近刚刚建站，调 Shoka 和 Hexo 搞得我有点头大，整个网站现在还没开发完，可能还要一点时间</p><h3 id="q3那这个博客后面会写什么呢"><a class="anchor" href="#q3那这个博客后面会写什么呢">#</a> Q3. 那这个博客后面会写什么呢？</h3><p><strong>A:</strong> 不知道，可能写一些关于计算机，音乐和二次元的东西 <sup>=</sup></p><h2 id="加一个很可爱的计数2022124-163000起计数"><a class="anchor" href="#加一个很可爱的计数2022124-163000起计数">#</a> 加一个很可爱的计数 (2022/12/4 16:30:00 起计数)</h2><p><img data-src="https://count.getloli.com/get/@:Yu-TangLin.github.io" alt=":name" /></p><h2 id="再加一个仓库提交日历"><a class="anchor" href="#再加一个仓库提交日历">#</a> 再加一个仓库提交日历</h2><p><img data-src="https://ghchart.rshah.org/Yu-TangLin" alt=":name" /></p><h2 id="更新日志"><a class="anchor" href="#更新日志">#</a> 更新日志</h2><ul><li>添加音乐播放器 2022/12/4</li><li>添加新的加载动画和切换动画 2022/12/4</li><li>增加了晚上自动切换为夜间模式的功能 2022/12/3</li><li>博客文章现在是大图啦～2022/12/3</li><li>加了一个很可爱的看板娘 2022/12/3</li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9oZXhvLmlvLw==&quot;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&quot;exturl&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;公告&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#公告&quot;&gt;#&lt;/a&gt; 公告&lt;/h1&gt;
+&lt;h2 id=&quot;qa&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#qa&quot;&gt;#&lt;/a&gt; Q&amp;amp;A&lt;/h2&gt;
+&lt;h3 id=&quot;q1之前不是有一个wordpres</summary>
       
     
     
