@@ -6,7 +6,7 @@
   <link href="http://yu-tanglin.github.io/atom.xml" rel="self"/>
   
   <link href="http://yu-tanglin.github.io/"/>
-  <updated>2022-12-04T08:42:38.064Z</updated>
+  <updated>2022-12-04T08:51:54.283Z</updated>
   <id>http://yu-tanglin.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇博文</title>
+    <link href="http://yu-tanglin.github.io/2022/12/04/hello-world/"/>
+    <id>http://yu-tanglin.github.io/2022/12/04/hello-world/</id>
+    <published>2022-12-04T08:51:54.279Z</published>
+    <updated>2022-12-04T08:51:54.283Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight racket"><figcaption data-lang="racket"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token lang keyword">#lang racket/gui</span></pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">(</span><span class="token keyword">define</span> my-language <span class="token symbol">'English</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">(</span><span class="token keyword">define</span> translations</pre></td></tr><tr><td data-num="6"></td><td><pre>  #hash<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token function">Chinese</span> . <span class="token string">"你好 世界"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="7"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">English</span> . <span class="token string">"Hello world"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="8"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">French</span> . <span class="token string">"Bonjour le monde"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="9"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">German</span> . <span class="token string">"Hallo Welt"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="10"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">Greek</span> . <span class="token string">"Γειά σου, κόσμε"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="11"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">Portuguese</span> . <span class="token string">"Olá mundo"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">Spanish</span> . <span class="token string">"Hola mundo"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">Thai</span> . <span class="token string">"สวัสดีชาวโลก"</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="14"></td><td><pre>        <span class="token punctuation">[</span><span class="token function">Turkish</span> . <span class="token string">"Merhaba Dünya"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="15"></td><td><pre></pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token punctuation">(</span><span class="token keyword">define</span> my-hello-world</pre></td></tr><tr><td data-num="17"></td><td><pre>  <span class="token punctuation">(</span><span class="token function">hash-ref</span> translations my-language</pre></td></tr><tr><td data-num="18"></td><td><pre>            <span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="19"></td><td><pre></pre></td></tr><tr><td data-num="20"></td><td><pre><span class="token punctuation">(</span><span class="token function">message-box</span> <span class="token string">""</span> my-hello-world<span class="token punctuation">)</span></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight racket&quot;&gt;&lt;figcaption data-lang=&quot;racket&quot;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&quot;1&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&quot;token la</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>公告</title>
