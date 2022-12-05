@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>げんそうきょう</title>
+        <link>http://Yu-Tanglin.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sun, 04 Dec 2022 16:51:54 +0800</pubDate>
+        <lastBuildDate>Sun, 04 Dec 2022 16:51:54 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://yu-tanglin.github.io/2022/12/04/hello-world/</guid>
+            <title>第一篇博文</title>
+            <link>http://yu-tanglin.github.io/2022/12/04/hello-world/</link>
+            <pubDate>Sun, 04 Dec 2022 16:51:54 +0800</pubDate>
+            <description><![CDATA[ &lt;figure class=&#34;highlight racket&#34;&gt;&lt;figcaption data-lang=&#34;racket&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token lang keyword&#34;&gt;#lang racket/gui&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;define&lt;/span&gt; my-language &lt;span class=&#34;token symbol&#34;&gt;&#39;English&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;define&lt;/span&gt; translations&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  #hash&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Chinese&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;你好 世界&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;English&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Hello world&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;French&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Bonjour le monde&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;German&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Hallo Welt&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Greek&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Γειά σου, κόσμε&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Portuguese&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Olá mundo&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Spanish&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Hola mundo&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Thai&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;สวัสดีชาวโลก&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Turkish&lt;/span&gt; . &lt;span class=&#34;token string&#34;&gt;&#34;Merhaba Dünya&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;define&lt;/span&gt; my-hello-world&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;hash-ref&lt;/span&gt; translations my-language&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token string&#34;&gt;&#34;hello world&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;message-box&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt; my-hello-world&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yu-tanglin.github.io/2022/12/02/%E5%85%AC%E5%91%8A/</guid>
+            <title>公告</title>
+            <link>http://yu-tanglin.github.io/2022/12/02/%E5%85%AC%E5%91%8A/</link>
+            <pubDate>Fri, 02 Dec 2022 22:41:34 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;公告&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#公告&#34;&gt;#&lt;/a&gt; 公告&lt;/h1&gt;
+&lt;h2 id=&#34;qa&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qa&#34;&gt;#&lt;/a&gt; Q&amp;amp;A&lt;/h2&gt;
+&lt;h3 id=&#34;q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;#&lt;/a&gt; Q1: 之前不是有一个 WordPress 博客了吗？为什么要开新的？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 因为一些&lt;strong&gt;众所周知&lt;/strong&gt;的原因，之前的博客被下线了，所以要开一个新的，同时写一些新的东西&lt;/p&gt;
+&lt;h3 id=&#34;q2为什么现在没有评论和搜索功能呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q2为什么现在没有评论和搜索功能呢&#34;&gt;#&lt;/a&gt; Q2. 为什么现在没有评论和搜索功能呢？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 最近刚刚建站，调 Shoka 和 Hexo 搞得我有点头大，整个网站现在还没开发完，可能还要一点时间&lt;/p&gt;
+&lt;h3 id=&#34;q3那这个博客后面会写什么呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q3那这个博客后面会写什么呢&#34;&gt;#&lt;/a&gt; Q3. 那这个博客后面会写什么呢？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 不知道，可能写一些关于计算机，音乐和二次元的东西 &lt;sup&gt;=&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;加一个可爱的计数2022124起&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加一个可爱的计数2022124起&#34;&gt;#&lt;/a&gt; 加一个可爱的计数 (2022/12/4 起)&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://count.getloli.com/get/@:Yu-TangLin.github.io&#34; alt=&#34;:name&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;再加一个仓库提交日历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#再加一个仓库提交日历&#34;&gt;#&lt;/a&gt; 再加一个仓库提交日历&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ghchart.rshah.org/Yu-TangLin&#34; alt=&#34;:name&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;更新日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#更新日志&#34;&gt;#&lt;/a&gt; 更新日志&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;添加音乐播放器 2022/12/4&lt;/li&gt;
+&lt;li&gt;添加新的加载动画和切换动画 2022/12/4&lt;/li&gt;
+&lt;li&gt;增加了晚上自动切换为夜间模式的功能 2022/12/3&lt;/li&gt;
+&lt;li&gt;博客文章现在是大图啦～2022/12/3&lt;/li&gt;
+&lt;li&gt;加了一个很可爱的看板娘 2022/12/3&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
