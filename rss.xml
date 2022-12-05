@@ -21,18 +21,21 @@
             <pubDate>Fri, 02 Dec 2022 22:41:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;公告&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#公告&#34;&gt;#&lt;/a&gt; 公告&lt;/h1&gt;
 &lt;h2 id=&#34;qa&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qa&#34;&gt;#&lt;/a&gt; Q&amp;amp;A&lt;/h2&gt;
-&lt;h3 id=&#34;q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;#&lt;/a&gt; Q1: 之前不是有一个 WordPress 博客了吗？为什么要开新的？&lt;/h3&gt;
+&lt;h3 id=&#34;q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q1之前不是有一个wordpress博客了吗-为什么要开新的&#34;&gt;#&lt;/a&gt; Q1. 之前不是有一个 WordPress 博客了吗？为什么要开新的？&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 因为一些&lt;strong&gt;众所周知&lt;/strong&gt;的原因，之前的博客被下线了，所以要开一个新的，同时写一些新的东西&lt;/p&gt;
-&lt;h3 id=&#34;q2为什么现在没有评论和搜索功能呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q2为什么现在没有评论和搜索功能呢&#34;&gt;#&lt;/a&gt; Q2. 为什么现在没有评论和搜索功能呢？&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 最近刚刚建站，调 Shoka 和 Hexo 搞得我有点头大，整个网站现在还没开发完，可能还要一点时间&lt;/p&gt;
-&lt;h3 id=&#34;q3那这个博客后面会写什么呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q3那这个博客后面会写什么呢&#34;&gt;#&lt;/a&gt; Q3. 那这个博客后面会写什么呢？&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 不知道，可能写一些关于计算机，音乐和二次元的东西 &lt;sup&gt;=&lt;/sup&gt;&lt;/p&gt;
-&lt;h2 id=&#34;加一个可爱的计数2022124起&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加一个可爱的计数2022124起&#34;&gt;#&lt;/a&gt; 加一个可爱的计数 (2022/12/4 起)&lt;/h2&gt;
+&lt;h3 id=&#34;q2那这个博客后面会写什么呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q2那这个博客后面会写什么呢&#34;&gt;#&lt;/a&gt; Q2. 那这个博客后面会写什么呢？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; 不知道，可能写一些关于计算机，音乐和二次元的东西 &lt;sup&gt;=&lt;/sup&gt;&lt;br /&gt;
+ 关于更新频率的话，理想状态是&lt;strong&gt;月更&lt;/strong&gt;。当然，不排除因火山爆发、台风、泥石流、龙卷风、海啸、原神新版本、偷懒等不可抗因素所导致的停更。所以这个更新期限可能&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;一定&lt;/span&gt;会顺延&lt;/p&gt;
+&lt;h2 id=&#34;加一个很可爱的计数2022124-163000起计数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加一个很可爱的计数2022124-163000起计数&#34;&gt;#&lt;/a&gt; 加一个很可爱的计数 (2022/12/4 16:30:00 起计数)&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://count.getloli.com/get/@:Yu-TangLin.github.io&#34; alt=&#34;:name&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;再加一个仓库提交日历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#再加一个仓库提交日历&#34;&gt;#&lt;/a&gt; 再加一个仓库提交日历&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://ghchart.rshah.org/Yu-TangLin&#34; alt=&#34;:name&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于我&#34;&gt;#&lt;/a&gt; 关于我：&lt;/h2&gt;
+&lt;p&gt;一个菜的不行的程序猿 (๑・̀ㅂ・́) ✧&lt;/p&gt;
 &lt;h2 id=&#34;更新日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#更新日志&#34;&gt;#&lt;/a&gt; 更新日志&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;添加了搜索 / 评论功能 2022/12/5&lt;/li&gt;
+&lt;li&gt;添加了 RSS 支持 2022/12/5&lt;/li&gt;
 &lt;li&gt;添加音乐播放器 2022/12/4&lt;/li&gt;
 &lt;li&gt;添加新的加载动画和切换动画 2022/12/4&lt;/li&gt;
 &lt;li&gt;增加了晚上自动切换为夜间模式的功能 2022/12/3&lt;/li&gt;
